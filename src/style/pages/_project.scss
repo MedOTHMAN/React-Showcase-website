@@ -24,14 +24,13 @@
       left : -500px;
     }
   }
-
   .navigation {
     top: 5px;
     left: 60%;
     font-size: 1.1rem;
     line-height: 20px;
     transform: translateY(-100%);
-    animation: navProject 1s ease forwards;
+    animation: navProject 0.5s ease forwards;
 
     @media screen and (max-width: 650px){
       left: 70%;
@@ -100,7 +99,7 @@
         font-family: $font-2;
         color: $color-2;
         transform: scaleX(0);
-        animation: transformTitle 1.5s ease forwards;
+        animation: transformTitle 1s ease forwards;
         transform-origin: 150%;
 
         @media screen and (max-width: 810px){
