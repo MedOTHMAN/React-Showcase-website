@@ -20,10 +20,10 @@ const Project = (props) => {
                     <h3>{project.title}</h3>
                     <p>{project.infos}</p>
                 </span>
-                <img src={project.img}></img>
+                <img src={project.img} alt={project.title}></img>
             </div>
             <div className="button-container">
-                <a href={project.link} target='_blank' className='hover'>
+                <a href={project.link} target='_blank' rel="noreferrer" className='hover'>
                     <span className="button">voir le site</span>
                 </a>
             </div>
